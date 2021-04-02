@@ -1,8 +1,3 @@
-# FMDataMigrationWrap
-
-## FMDataMigrationWrap.sh
-
-```sh
 #!/usr/bin/env sh
 set -euo pipefail
 
@@ -125,4 +120,3 @@ for i in $PROD_LIST; do
   RESULT=$("$PATH_FMDM" -src_path "$PROD_PATH" -clone_path "$CLONE_PATH" -target_path "$TARGET_PATH" $MIGRATION_PARAM)
   func_log "$RESULT"
 done
-```

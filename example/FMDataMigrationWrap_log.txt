@@ -1,0 +1,84 @@
+2021-04-02T17:19:56 ==============================
+2021-04-02T17:19:56 FMDataMigrationWrap.shを開始しました。
+2021-04-02T17:19:56 FMDataMigrationが見つかりました。
+2021-04-02T17:19:56 対象ファイル数: 2
+2021-04-02T17:19:56 対象ファイル: ./resources/prod/dir2/タスク.fmp12,./resources/prod/dir1/コンテンツ管理.fmp12
+2021-04-02T17:19:56 ------------------------------
+2021-04-02T17:19:56 ./resources/prod/dir2/タスク.fmp12 をマイグレーションします。
+2021-04-02T17:19:56 ------------------------------
+2021-04-02T17:19:58 Start: Fri Apr  2 17:19:57 2021
+ == Mapping source privileges to target privileges ==
+ == Copying changed custom value lists ==
+ == Analyzing font lists ==
+ == Mapping source tables to target tables ==
+ == Mapping fields in source table "添付ファイル" to target table "添付ファイル" ==
+  -- Record mode migration for source table "添付ファイル" --
+  -- Rebuilt the following indexes --
+   Target field "外部キー"
+   Target field "主キー"
+ == Mapping fields in source table "割り当て" to target table "割り当て" ==
+  -- Record mode migration for source table "割り当て" --
+  -- Rebuilt the following indexes --
+   Target field "担当者外部キー"
+   Target field "主キー"
+   Target field "タスク外部キー"
+ == Mapping fields in source table "担当者" to target table "担当者" ==
+  -- Record mode migration for source table "担当者" --
+  -- Rebuilt the following indexes --
+   Target field "会社"
+   Target field "電子メール"
+   Target field "名前"
+   Target field "主キー"
+  -- Updated the following stored calculations --
+   Target field "名前" and its dependents
+   Target field "イニシャル" and its dependents
+ == Mapping fields in source table "タスク" to target table "タスク" ==
+  -- Record mode migration for source table "タスク" --
+  -- Rebuilt the following indexes --
+   Target field "主キー"
+ == Summary ==
+  Accounts migrated: 2
+  Accounts changed: 0
+  Custom value lists migrated: 0
+  Font entries added: 0
+  Tables migrated: 4
+  Tables not migrated: 0
+  Fields migrated: 42
+  Fields not migrated: 0
+  Fields triggering recalculations: 2
+  Fields with evaluation errors: 0
+  Fields with fewer repetitions: 0
+  Serial numbers updated: 0
+End: Fri Apr  2 17:19:58 2021
+2021-04-02T17:19:58 ------------------------------
+2021-04-02T17:19:58 ./resources/prod/dir1/コンテンツ管理.fmp12 をマイグレーションします。
+2021-04-02T17:19:58 ------------------------------
+2021-04-02T17:20:01 Start: Fri Apr  2 17:19:59 2021
+ == Mapping source privileges to target privileges ==
+ == Copying changed custom value lists ==
+ == Analyzing font lists ==
+ == Mapping source tables to target tables ==
+ == Mapping fields in source table "メモ" to target table "メモ" ==
+  -- Record mode migration for source table "メモ" --
+  -- Rebuilt the following indexes --
+   Target field "外部キー"
+   Target field "主キー"
+ == Mapping fields in source table "コンテンツ管理" to target table "コンテンツ管理" ==
+  -- Record mode migration for source table "コンテンツ管理" --
+  -- Rebuilt the following indexes --
+   Target field "所在"
+   Target field "主キー"
+ == Summary ==
+  Accounts migrated: 2
+  Accounts changed: 0
+  Custom value lists migrated: 0
+  Font entries added: 0
+  Tables migrated: 2
+  Tables not migrated: 0
+  Fields migrated: 18
+  Fields not migrated: 0
+  Fields triggering recalculations: 0
+  Fields with evaluation errors: 0
+  Fields with fewer repetitions: 0
+  Serial numbers updated: 0
+End: Fri Apr  2 17:20:00 2021
