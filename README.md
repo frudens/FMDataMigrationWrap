@@ -1,5 +1,11 @@
 # FMDataMigrationWrap
 
+## コマンドの実行例
+
+```sh
+teruhiro@MacBook-Pro-13:~/tmp/FMDataMigrationWrap/example $ bash FMDataMigrationWrap.sh -src_account "admin" -src_pwd "admin" -clone_account "admin" -clone_pwd "admin" -reevaluate -rebuildindexes
+```
+
 ## FMDataMigrationWrap.sh
 
 ```sh
